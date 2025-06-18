@@ -634,13 +634,13 @@ footer {
     position: fixed;
     top: 70px;
     right: 0;
-    background: var(--glass-bg);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     width: 100%;
     padding: 20px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    border-top: 1px solid var(--glass-border);
+    box-shadow: 0 5px 20px rgba(59, 130, 246, 0.15);
+    border-top: 1px solid rgba(59, 130, 246, 0.2);
     z-index: 999;
 }
 
